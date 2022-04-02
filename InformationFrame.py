@@ -20,7 +20,6 @@ class InformationFrame:
                 }
                 self.__tRows += 1
                 self.__dataHolder.update(r)
-            print(self.__dataHolder)
         except Exception as e:
             print(e)
 

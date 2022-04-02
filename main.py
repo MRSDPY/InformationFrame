@@ -2,7 +2,7 @@ from InformationFrame import InformationFrame
 
 
 def main():
-    I = InformationFrame("DataFrame1", "F:/python project by MR.SD/all basic program/InformationFram/A2Data")
+    I = InformationFrame("DataFrame1", "A2Data")
     I.displayFrameMetaData()
     print()
     I.displayCells(['B2'])
